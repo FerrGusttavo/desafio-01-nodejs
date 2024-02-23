@@ -1,0 +1,17 @@
+{
+  "name": "desafio-01",
+  "version": "1.0.0",
+  "description": "API para realizar o CRUD de tasks (tarefas) via requisição HTTP ou com arquivo .csv externo",
+  "main": "/src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "import": "node streams/import-csv.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^5.5.3"
+  }
+}
